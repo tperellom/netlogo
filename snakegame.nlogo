@@ -202,7 +202,7 @@ NIL
 W
 NIL
 NIL
-0
+1
 
 BUTTON
 75
@@ -219,7 +219,7 @@ NIL
 S
 NIL
 NIL
-0
+1
 
 BUTTON
 145
@@ -236,7 +236,7 @@ NIL
 D
 NIL
 NIL
-0
+1
 
 BUTTON
 5
@@ -253,7 +253,7 @@ NIL
 A
 NIL
 NIL
-0
+1
 
 @#$#@#$#@
 ## WHAT IS IT?
