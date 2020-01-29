@@ -1,4 +1,6 @@
-globals [direction]
+globals [
+  direction
+]
 
 breed [
   snakes snake
@@ -10,10 +12,15 @@ breed [
 
 to setup
   clear-all
+  reset-ticks
   setup-world
   setup-agents
   create-snake
   create-apple
+end
+
+to go
+  move
 end
 
 to setup-world
@@ -76,7 +83,6 @@ to up
   current-direction = 90 [
     set direction 0
   ]
-  move
 end
 
 
@@ -87,7 +93,6 @@ to left-p
   current-direction = 0 [
     set direction 270
   ]
-  move
 end
 
 
@@ -98,7 +103,6 @@ to right-p
   current-direction = 180 [
     set direction 90
   ]
-  move
 end
 
 
@@ -109,7 +113,6 @@ to down
   current-direction = 90 [
     set direction 180
   ]
-  move
 end
 
 to check-diverse
@@ -139,6 +142,7 @@ to check-snake
     if any? other snakes-on patch-here [
       user-message (word "You lost!")
       ask snakes [die]
+      stop
     ]
   ]
 end
@@ -171,9 +175,9 @@ ticks
 30.0
 
 BUTTON
-75
+35
 60
-138
+98
 93
 NIL
 setup
@@ -194,7 +198,7 @@ BUTTON
 188
 up
 up
-T
+NIL
 1
 T
 OBSERVER
@@ -211,7 +215,7 @@ BUTTON
 228
 NIL
 down
-T
+NIL
 1
 T
 OBSERVER
@@ -228,7 +232,7 @@ BUTTON
 228
 right
 right-p
-T
+NIL
 1
 T
 OBSERVER
@@ -245,12 +249,29 @@ BUTTON
 228
 left
 left-p
-T
+NIL
 1
 T
 OBSERVER
 NIL
 A
+NIL
+NIL
+1
+
+BUTTON
+105
+60
+168
+93
+NIL
+go
+T
+1
+T
+OBSERVER
+NIL
+NIL
 NIL
 NIL
 1
