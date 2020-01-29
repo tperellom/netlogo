@@ -149,9 +149,9 @@ end
 @#$#@#$#@
 GRAPHICS-WINDOW
 225
-60
+40
 506
-342
+322
 -1
 -1
 13.0
@@ -175,10 +175,10 @@ ticks
 30.0
 
 BUTTON
-35
-60
-98
-93
+10
+160
+73
+193
 NIL
 setup
 NIL
@@ -192,10 +192,10 @@ NIL
 1
 
 BUTTON
-75
-155
-138
-188
+80
+230
+143
+263
 up
 up
 NIL
@@ -209,10 +209,10 @@ NIL
 1
 
 BUTTON
-75
-195
-138
-228
+80
+270
+143
+303
 NIL
 down
 NIL
@@ -226,10 +226,10 @@ NIL
 1
 
 BUTTON
-145
-195
-207
-228
+150
+270
+212
+303
 right
 right-p
 NIL
@@ -243,10 +243,10 @@ NIL
 1
 
 BUTTON
-5
-195
-68
-228
+10
+270
+73
+303
 left
 left-p
 NIL
@@ -260,10 +260,10 @@ NIL
 1
 
 BUTTON
-105
-60
-168
-93
+80
+160
+143
+193
 NIL
 go
 T
@@ -274,6 +274,46 @@ NIL
 NIL
 NIL
 NIL
+1
+
+TEXTBOX
+15
+50
+175
+125
+To initialise the game, first press \"setup\" and then \"go\".\n\nTo move the snake, use the keys WASD of the keyboard.
+11
+0.0
+1
+
+TEXTBOX
+15
+135
+165
+153
+(1) Initialisation:
+11
+14.0
+1
+
+TEXTBOX
+15
+210
+165
+228
+(2) Keys:
+11
+14.0
+1
+
+TEXTBOX
+340
+15
+395
+31
+SNAKE
+16
+0.0
 1
 
 @#$#@#$#@
