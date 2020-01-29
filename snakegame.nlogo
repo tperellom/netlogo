@@ -20,6 +20,7 @@ to setup
 end
 
 to go
+  if not any? snakes [stop]
   move
 end
 
@@ -142,7 +143,6 @@ to check-snake
     if any? other snakes-on patch-here [
       user-message (word "You lost!")
       ask snakes [die]
-      stop
     ]
   ]
 end
@@ -310,7 +310,7 @@ TEXTBOX
 340
 15
 395
-31
+33
 SNAKE
 16
 0.0
