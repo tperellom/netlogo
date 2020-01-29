@@ -1,5 +1,6 @@
 globals [
   direction
+  score
 ]
 
 breed [
@@ -133,6 +134,7 @@ to check-apple
           set heading dir
         ]
       ]
+      set score (score + 10)
       die
     ]
   ]
@@ -176,9 +178,9 @@ ticks
 
 BUTTON
 10
-160
+175
 73
-193
+208
 NIL
 setup
 NIL
@@ -193,9 +195,9 @@ NIL
 
 BUTTON
 80
-230
+245
 143
-263
+278
 up
 up
 NIL
@@ -210,9 +212,9 @@ NIL
 
 BUTTON
 80
-270
+285
 143
-303
+318
 NIL
 down
 NIL
@@ -227,9 +229,9 @@ NIL
 
 BUTTON
 150
-270
+285
 212
-303
+318
 right
 right-p
 NIL
@@ -244,9 +246,9 @@ NIL
 
 BUTTON
 10
-270
+285
 73
-303
+318
 left
 left-p
 NIL
@@ -261,9 +263,9 @@ NIL
 
 BUTTON
 80
-160
+175
 143
-193
+208
 NIL
 go
 T
@@ -279,42 +281,43 @@ NIL
 TEXTBOX
 15
 50
-175
-125
-To initialise the game, first press \"setup\" and then \"go\".\n\nTo move the snake, use the keys WASD of the keyboard.
+220
+146
+To start the game, first press \"setup\" and then \"go\". Change difficulty by moving the \"speed slider\".\n\nTo move the snake, use the WASD keys of the keyboard.
 11
 0.0
 1
 
 TEXTBOX
 15
-135
+150
 165
-153
-(1) Initialisation:
+168
+(1) Start:
 11
 14.0
 1
 
 TEXTBOX
 15
-210
+225
 165
-228
+243
 (2) Keys:
 11
 14.0
 1
 
-TEXTBOX
-340
-15
-395
-33
-SNAKE
-16
-0.0
+MONITOR
+560
+185
+617
+230
+Score
+score
+0
 1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
