@@ -143,7 +143,7 @@ end
 to check-snake
   ask snakes [
     if any? other snakes-on patch-here [
-      user-message (word "You lost!")
+      user-message (word "You've lost!")
       ask snakes [die]
     ]
   ]
