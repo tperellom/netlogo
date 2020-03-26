@@ -261,7 +261,7 @@ attitude
 attitude
 0
 10
-9.997179568242016
+5.0
 1
 1
 NIL
@@ -276,7 +276,7 @@ argument-quality
 argument-quality
 0
 10
-4.027508369116089
+5.0
 1
 1
 NIL
@@ -481,7 +481,7 @@ knowledge
 knowledge
 0
 10
-4.027508369116089
+5.0
 1
 1
 NIL
