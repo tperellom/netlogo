@@ -197,10 +197,10 @@ NIL
 1
 
 PLOT
-490
-50
-845
-360
+370
+60
+725
+370
 Attitude
 Runs
 Attitude
@@ -215,10 +215,10 @@ PENS
 "default" 1.0 0 -16777216 true "" ""
 
 PLOT
-850
-50
-1215
-360
+730
+60
+1095
+370
 Elaboration likelihood
 Runs
 EL
@@ -261,7 +261,7 @@ attitude
 attitude
 0
 10
-5.0
+9.997179568242016
 1
 1
 NIL
@@ -276,7 +276,7 @@ argument-quality
 argument-quality
 0
 10
-5.0
+4.027508369116089
 1
 1
 NIL
@@ -318,10 +318,10 @@ i) Contextual and source:
 1
 
 TEXTBOX
-965
-370
-1115
-396
+845
+380
+995
+406
 It starts at run=1 because it is when the blocks are executed.
 11
 0.0
@@ -446,7 +446,7 @@ value-orientation
 value-orientation
 0
 10
-9.0
+5.0
 1
 1
 NIL
@@ -481,7 +481,7 @@ knowledge
 knowledge
 0
 10
-7.0
+4.027508369116089
 1
 1
 NIL
@@ -496,7 +496,7 @@ peripheral-cue
 peripheral-cue
 0
 10
-50.0
+6.0
 1
 1
 NIL
@@ -511,7 +511,7 @@ source-attitude
 source-attitude
 0
 10
-6.0
+10.0
 1
 1
 NIL
