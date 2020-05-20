@@ -206,10 +206,10 @@ NIL
 1
 
 PLOT
-750
-14
-1034
-281
+715
+13
+999
+370
 Water losses
 Time
 %
@@ -307,10 +307,10 @@ minimum-policy
 -1000
 
 PLOT
-1040
-14
-1286
-164
+1004
+13
+1296
+370
 Status of pipelines
 Time
 %
@@ -671,7 +671,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.0.4
+NetLogo 6.1.1
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
